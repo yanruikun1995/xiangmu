@@ -43,12 +43,108 @@ img {
 
 .yrk_header{
 	width: 100%;
-	height: 40px;
-	background: red;
+	height: 590px;
 }
-
-
-
+.yrk_header_s{
+	width: 100%;
+	height: 165px;
+}
+.yrk_header_ss{
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+}
+.yrk_header_ss ul{
+	float: left;
+}
+.yrk_header_ss ul li a{
+	line-height: 40px;
+	color: #212121;
+	font-size: 12px;
+}
+.yrk_header_ss ul li a:hover{
+	color: #ec6001
+}
+.yrk_header_ss ul li span{
+	float: left;
+	margin-right: 6px;
+	padding-top: 2px;
+}
+.yrk_header_ss .yrk_ss{
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	color: #3c3c3c;
+	font-size: 12px;
+}
+.yrk_header_ss .yrk_ss a{
+	line-height: 40px;
+	margin-right: 10px;
+}
+.yrk_header_ss .yrk_ss a span{
+	float: left;
+	padding-top: 2px;
+	margin-right: 6px;
+}
+.yrk_header_sx{
+	width: 1000px;
+	height: 125px;
+	margin: 0 auto;
+}
+.yrk_header_sx strong{
+	width: 300px;
+	height: 125px;
+	float: left;
+}
+.yrk_header_sx strong img{
+	padding: 5px 20px;
+}
+.yrk_header_z{
+	width: 100%;
+	height: 425px;
+	background: #1c1c1c;
+}
+.yrk_header_zs{
+	width: 100%;
+	background: #171717;
+}
+.yrk_header_zs ul{
+	width: 1000px;
+	height: 45px;
+	margin: 0 auto;
+}
+.yrk_header_zs ul li{
+	width: 100px;
+	height: 20px;
+	margin-top: 10px;
+	text-align: center;
+	border-left: 1px solid #ccc;
+	float: left;
+}
+.yrk_header_zs ul li a{
+	width: 100px;
+	height: 45px;
+	color: #fff;
+	font-weight: bold;margin-top: 10px;
+}
+.yrk_header_zs ul li a:hover{
+	color: #eb6100;
+}
+.yrk_header_zx{
+	width: 1000px;
+	height: 379px;
+	margin: 0 auto;
+}
+.yrk_header_left{
+	width: 680px;
+	height: 379px;background: yellow;
+	float: left;
+}
+.yrk_header_right{
+	width: 301px;
+	height: 379px;background: yellow;
+	float: right;
+}
 
 
 
@@ -60,11 +156,29 @@ img {
 /*yrk_header结束*/
 
 .yrk_conter{
-	
+	width: 100%;
+	height: 6838px;
+	background: #fff;
+}
+.yrk_conter_box{
+	width: 1000px;
+	height: 6838px;
+	margin: 0 auto;
+}
+.yrk_conter_top{
+	height: 291px;
 }
 
 
 
+
+
+
+
+
+.yrk_conter_bottom{
+	height: 6547px;
+}
 
 
 
@@ -77,11 +191,57 @@ img {
 /*yrk_conter结束*/
 
 .yrk_footer{
-	
+	width: 100%;
+	height: 160px;
+	background: #171717;
 }
-
-
-
+.yrk_footer_box{
+	width: 1000px;
+	height: 160px;
+	margin: 0 auto;
+}
+.yrk_footer_left{
+	width: 30%;
+	height: 160px;
+	float: left;
+}
+.yrk_footer_left p img{
+	padding: 44px 24px;
+}
+.yrk_footer_right{
+	width: 66%;
+	height: 160px;
+	float: right;
+}
+.yrk_footer_right ul{
+	width: 94%;
+	height: 80px;
+	margin: 0 auto;
+}
+.yrk_footer_right ul li{
+	width: 86px;
+	height: 20px;
+	margin-top: 50px;
+	float: left;
+	line-height: 20px;
+	text-align: center;
+	border-left: 1px solid #3e3c3f;
+}
+.yrk_footer_right ul li a{
+	font-size: 12px;
+	color: #ccc;
+}
+.yrk_footer_right ul li a:hover{
+	color: #ec6001;
+}
+.yrk_footer_right p{
+	width: 80%;
+	height: 80px;
+	margin: 0 auto;
+	color: #666;
+	line-height: 80px;
+	font-size: 12px;
+}
 
 
 
