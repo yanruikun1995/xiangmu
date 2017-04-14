@@ -140,6 +140,69 @@ img {
 	height: 379px;background: yellow;
 	float: left;
 }
+.yrk_sbox{
+	width:500px;
+	height:350px;
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.yrk_sbox ul{
+	width:3000px;
+	height:350px;
+	position: absolute;
+}
+.yrk_sbox ul li{
+	width:500px;
+	height:350px;
+	float: left;
+}
+.yrk_sbox ol{
+	height:20px;
+	position: absolute;
+	bottom:10px;
+	left:26%;
+}
+.yrk_sbox ol li{
+	width:20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background:red;
+	float: left;
+	margin-right:10px;
+	border-radius: 50%;
+}
+.left_l{
+	width:40px;
+	height:40px;
+	background: #3C3C3C;
+	color: #fff;
+	opacity: 0.5;
+	position: absolute;
+	top:116px;
+	left:0;
+	z-index: 99;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+}
+.right_r{
+	width:40px;
+	height:40px;
+	background: #3C3C3C;
+	color: #fff;
+	opacity: 0.5;
+	position: absolute;
+	top:116px;
+	right:0;
+	z-index: 99;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+}
 .yrk_header_right{
 	width: 301px;
 	height: 379px;background: yellow;
@@ -249,12 +312,4 @@ img {
 
 
 
-
-
-
-
-
-
-
-/*yrk_footer结束*/
 
