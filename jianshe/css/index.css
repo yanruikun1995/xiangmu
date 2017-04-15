@@ -232,7 +232,11 @@ img {
 	height: 291px;
 }
 
-
+.yrk_conter_top p{
+	width: 100%;
+	height: 100px;
+	background: red;
+}
 
 
 

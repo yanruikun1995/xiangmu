@@ -4,8 +4,10 @@
 		<meta charset="UTF-8">
 		<title>时尚美容</title>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 		<script src="js/js.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		<div class="yrkbox">
@@ -44,17 +46,32 @@
 					</div>
 					<div class="yrk_header_zx">
 						<div class="yrk_header_left">
-							<div class="yrk_sbox">
-								<div class="left_l"><</div>
-								<div class="right_r">></div>
-								<ul>
-									<li><img src="img/lbt.png"></li>
-									<li><img src="img/lbt2.png"></li>
-								</ul>
-								<ol>
-									<li></li>
-									<li></li>
-								</ol>
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 140px;height: 90px;" data-interval="1000">
+							  <!-- Indicators -->  <!--三个小圆点-->
+							  <ol class="carousel-indicators">
+							    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							  </ol>
+							
+							  <!-- Wrapper for slides -->	<!--一个盒子是一张图片-->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img/lbt.png" alt="...">
+							    </div>
+							    <div class="item">
+							      <img src="img/lbt2.png" alt="...">
+							    </div>
+							  </div>
+							
+							  <!-- Controls --> 	<!--左右箭头-->
+							  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left"></span>
+							    <span class="sr-only">Previous</span>
+							  </a>
+							  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right"></span>
+							    <span class="sr-only">Next</span>
+							  </a>
 							</div>
 						</div>
 						<div class="yrk_header_right">
@@ -70,7 +87,25 @@
 			<div class="yrk_conter">
 				<div class="yrk_conter_box">
 					<div class="yrk_conter_top">
-						
+						<p><img src="img/meirong.png"/></p>
+						<div class="yrk_conter_small">
+							<button type="button" class="btn btn-primary">资讯</button>
+							<button type="button" class="btn btn-primary">护肤</button>
+							<button type="button" class="btn btn-primary">彩妆</button>
+							<button type="button" class="btn btn-primary">减肥</button>
+							<button type="button" class="btn btn-primary">美发</button>
+							<button type="button" class="btn btn-primary">香水</button>
+							<button type="button" class="btn btn-primary">身体护理</button>
+							<button type="button" class="btn btn-primary">评测</button>
+							<button type="button" class="btn btn-primary">TIPS</button>
+							<button type="button" class="btn btn-primary">新品动态</button>
+							<button type="button" class="btn btn-primary">名人</button>
+						</div>
+						<ul>
+							<li>首页</li>
+							<li>></li>
+							<li>美容</li>
+						</ul>
 					</div>
 					<div class="yrk_conter_bottom">
 						
