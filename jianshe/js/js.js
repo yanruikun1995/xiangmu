@@ -1,10 +1,17 @@
-window.onload =function(){
+window.onload = function(){
 	
-
-
-
-	//轮播图
-	   
+	$(".yrk_ss").click(function(){
+		$(".yrk_ss").hide();
+		$('.yrk_yin').show()
+	})
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

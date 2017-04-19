@@ -72,6 +72,7 @@ img {
 }
 .yrk_header_ss .yrk_ss{
 	float: right;
+	width: 150px;
 	height: 40px;
 	line-height: 40px;
 	color: #3c3c3c;
@@ -80,12 +81,26 @@ img {
 .yrk_header_ss .yrk_ss a{
 	line-height: 40px;
 	margin-right: 10px;
+	float: right;
 }
 .yrk_header_ss .yrk_ss a span{
 	float: left;
 	padding-top: 2px;
 	margin-right: 6px;
 }
+.yrk_yin{
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	float: right;
+	overflow: hidden;
+}
+.yrk_yin a{
+	line-height: 40px;
+	margin-right: 10px;
+	float: right;
+}
+
 .yrk_header_sx{
 	width: 1000px;
 	height: 125px;
@@ -145,12 +160,6 @@ img {
 }
 .left,.right{
 	height: 325px;
-}
-.glyphicon{
-	width: 50px;
-	height: 50px;
-	background: #3c3732;
-	color: #fff;
 }
 
 .yrk_header_right{
@@ -280,7 +289,19 @@ img {
   line-height: 22px;
   background: #fff;
 }
-
+.yrk_conter_bottom_tu ul button{
+	width: 208px;
+	height: 44px;
+	background: #212121;
+	border: 1px solid #212121;
+	color: #fff;
+	font-size: 16px;
+	margin: 5% 40%;
+}
+.yrk_conter_bottom_tu ul button:hover{
+	background: #eb6100;
+	border: 1px solid #eb6100;
+}
 
 
 
